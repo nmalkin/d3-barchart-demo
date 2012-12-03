@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.chart rect.bar {
+    stroke: white;
+    fill: steelblue;
+}
+
+.chart rect.bar.selected {
+    fill: orange;
+}
+
+.chart text {
+    font-size: 10px;
+}
+
+#context {
+    float: right;
+    width: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.viewport {
+    fill: rgba(133,133,133, 0.5);
+}
